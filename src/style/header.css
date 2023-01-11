@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  right: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding-left: 5%;
+  padding-right: 5%;
+  transition: all 0.3s;
+}
+.fix-header {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+.menu__link {
+  text-decoration: none;
+  margin-right: 4%;
+  color: black;
+  transition: 0.3s;
+}
+.header-icons svg{
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header-icons svg:hover{
+  color: #717fe0;
+}
+
+.menu__link--active,
+.menu__link:hover {
+  color: #717fe0;
+}
+header .header-menu {
+  flex-grow: 4;
+  display: flex;
+}
+
+.header-logo {
+  flex-grow: 1;
+}
+
+.header-icons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth-modal-block {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.auth-modal-parent {
+  width: 40%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.auth-modal-block input {
+  margin-bottom: 20px;
+}
+
+.total-items-num {
+  background-color: #717fe0;
+  width: 16px;
+  height: 16px;
+  color: white;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -30px;
+  margin-left: 15px;
+  z-index: 1;
+}

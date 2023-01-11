@@ -1,0 +1,57 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "test",
+      "password": "qwerty"
+    },
+    {
+      "username": "dianamaduan",
+      "password": "qwerty",
+      "id": 2
+    },
+    {
+      "username": "test10",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "username": "dd@mail.ru",
+      "password": "1234",
+      "id": 4
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "quantity": 1,
+      "size": "S",
+      "color": "white"
+    },
+    {
+      "product_id": 5,
+      "quantity": "2",
+      "size": "Size M",
+      "color": "Red",
+      "user_id": 3,
+      "id": 2
+    },
+    {
+      "product_id": 2,
+      "quantity": "2",
+      "size": "Size M",
+      "color": "Red",
+      "user_id": 3,
+      "id": 3
+    },
+    {
+      "product_id": 6,
+      "quantity": "4",
+      "size": "Size S",
+      "color": "White",
+      "user_id": 3,
+      "id": 4
+    }
+  ]
+}

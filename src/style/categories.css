@@ -1,0 +1,165 @@
+.category-cards-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 70px auto;
+}
+
+.category-card{
+    border: 1px solid grey;
+    width: 28%;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+    transition: 1s;
+    background-size: cover;
+}
+
+
+.category-cards-block button{
+    color: white;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    display: none;
+    margin-top: 80px;
+}
+
+.category-card:hover button{
+    display: block;
+}
+
+.category-card:hover {
+    cursor: pointer;
+}
+
+.category-card:hover::before{
+    background-color: rgba(114, 64, 160, 0.691);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    content: '';
+}
+
+.category-card:hover div{
+    color: white;
+    z-index: 2;
+    position: absolute;
+}
+
+
+/* Category list */
+
+.category-list-block{
+    width: 80%;
+    margin: auto;
+}
+
+.category-list-block > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.category-list-items button{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 18px;
+}
+
+.category-list-items button:hover{
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+.accordion-collapse{
+    margin-top: 20px;
+}
+
+.filter-block {
+    background-color: gainsboro;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.filter-header{
+    font-weight: 700;
+}
+
+.filter-link{
+    text-decoration: none;
+    color: grey;
+    margin-left: 5px;
+}
+
+.filter-block li {
+    list-style-type: none;
+    line-height: 24px;
+}
+
+.filter-block ul{
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.filter-block .hov-tag1{
+    text-decoration: none;
+    color: grey;
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.filter-block li > span{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+#search-input input{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 40px;
+    height: 50px;
+    font-size: 16px;
+}
+
+#search-input-icon{
+    position: absolute;
+    left: 15px;
+    top: 28px;
+    z-index: 2;
+}
+
+#search-input{
+    position: relative;
+}
+
+
+.btn-outline-secondary {
+    color: #6c757d;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 14px;
+  }
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}

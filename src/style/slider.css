@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@800&display=swap");
+.slider-block {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.main-block {
+  height: 100vh;
+  background-size: cover;
+}
+
+.slider-text-block {
+  justify-self: flex-start;
+}
+
+.slider-block .fa-caret-left,
+.slider-block .fa-caret-right {
+  font-size: 36px;
+  cursor: pointer;
+  visibility: hidden;
+  color: rgba(0, 0, 0, 0.3);
+}
+.slider-block:hover .fa-caret-left,
+.slider-block:hover .fa-caret-right {
+  visibility: visible;
+  transition: 0.3s;
+}
+.slider-block .fa-caret-left:hover,
+.slider-block .fa-caret-right:hover {
+  color: #333;
+}
+.slider-block h1 {
+  font-size: 70px;
+  line-height: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+.slider-block button {
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-top: 40px;
+}

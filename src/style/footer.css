@@ -1,0 +1,168 @@
+.bg3 {
+  background-color: #222;
+}
+.p-b-32 {
+  padding-bottom: 32px;
+}
+.p-t-75 {
+  padding-top: 75px;
+}
+.p-b-50 {
+  padding-bottom: 50px;
+}
+.stext-301 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.cl0 {
+  color: #fff;
+}
+
+.p-b-30,
+.p-tb-30 {
+  padding-bottom: 30px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.p-b-10,
+.p-tb-10 {
+  padding-bottom: 10px;
+}
+.stext-107 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.923;
+}
+.cl7 {
+  color: #b2b2b2;
+}
+.trans-04 {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.hov-cl1:hover {
+  color: #717fe0;
+}
+.size-201 {
+  max-width: 270px;
+}
+.p-t-27 {
+  padding-top: 27px;
+}
+.m-r-16 {
+  margin-right: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.wrap-input1 {
+  position: relative;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.1);
+}
+.w-full {
+  width: 100%;
+}
+.p-b-4 {
+  padding-bottom: 4px;
+}
+.plh1::placeholder {
+  color: #b2b2b2;
+}
+.input1 {
+  background-color: transparent;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.focus-input1 {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #6774d5;
+  left: 0;
+  bottom: -2px;
+  z-index: 10;
+}
+.input1:focus ~ .focus-input1 {
+  width: 100%;
+}
+.p-t-18 {
+  padding-top: 18px;
+}
+.p-b-18 {
+  padding-bottom: 18px;
+}
+.flex-c-m {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.stext-101 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.466667;
+  text-transform: uppercase;
+}
+.bor1 {
+  border-radius: 23px;
+}
+.bg1 {
+  background-color: #717fe0;
+}
+.size-103 {
+  min-width: 179px;
+  height: 46px;
+}
+button {
+  border: none;
+}
+.hov-btn2:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #717fe0;
+}
+.p-t-40,
+.p-tb-40 {
+  padding-top: 40px;
+}
+.flex-w {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.m-all-1 {
+  margin: 1px;
+}
+.cl6 {
+  color: #888;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-center a {
+  color: #007bff;
+}
+.txt-center a:hover {
+  color: #0056b3;
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}

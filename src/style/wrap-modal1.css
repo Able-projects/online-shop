@@ -1,0 +1,402 @@
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.wrap-modal1 {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  overflow: auto;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.p-t-60 {
+  padding-top: 60px;
+}
+.p-b-20 {
+  padding-bottom: 20px;
+}
+.overlay-modal1 {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.8;
+}
+.js-hide-modal1 {
+}
+.container {
+}
+.bg0 {
+  background-color: #fff;
+}
+.p-b-30 {
+  padding-bottom: 30px;
+}
+.how-pos3-parent {
+  position: relative;
+}
+.how-pos3 {
+  position: absolute;
+  top: -35px;
+  right: 0px;
+}
+.hov3 {
+  opacity: 0.6;
+}
+.hov3:hover {
+  opacity: 1;
+}
+.trans-04 {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.row {
+}
+.col-md-6 {
+}
+.col-lg-7 {
+}
+.p-l-25 {
+  padding-left: 25px;
+}
+.p-r-30 {
+  padding-right: 30px;
+}
+.p-lr-0-lg {
+}
+.wrap-slick3 {
+  position: relative;
+}
+.flex-sb {
+  justify-content: space-between;
+}
+.flex-w {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flex-w,
+.flex-r,
+.flex-sb,
+.flex-t,
+.flex-m,
+.flex-c-m,
+.flex-l-m,
+.flex-r-m,
+.flex-sb-m,
+.flex-col-l,
+.flex-col-t,
+.flex-col-m,
+.flex-col-c-m,
+.flex-col-l-m,
+.flex-col-l-sb,
+.dis-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrap-slick3-dots {
+  width: 11.111111%;
+}
+.slick3-dots {
+}
+.slick3-dots li {
+  display: block;
+  position: relative;
+  width: 100% !important;
+  margin-bottom: 27px;
+}
+.slick3-dots li img {
+  width: 100%;
+}
+
+.slick3-dot-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border: 2px solid transparent;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.wrap-slick3-arrows {
+  position: absolute;
+  z-index: 100;
+  width: 83.333333%;
+  right: 0;
+  top: calc(50% - 20px);
+}
+.flex-sb-m {
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+.arrow-slick3 {
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.arrow-slick3:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.prev-slick3 {
+  left: 0px;
+}
+
+.next-slick3 {
+  right: 0px;
+}
+.fa-angle-right {
+}
+.slick3 {
+  width: 83.333333%;
+}
+
+.item-slick3 {
+}
+.wrap-pic-s,
+.wrap-pic-w {
+  display: block;
+}
+.pos-relative {
+  position: relative;
+}
+.wrap-pic-w img {
+  width: 100%;
+}
+
+.flex-c-m {
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.size-108 {
+  width: 40px;
+  height: 40px;
+}
+.how-pos1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.bor0 {
+  border-radius: 50%;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.cl10 {
+  color: #1d1d1d;
+}
+.hov-btn3:hover {
+  border-color: #717fe0;
+  background-color: #717fe0;
+  color: #fff;
+}
+.fa-expand {
+}
+.col-lg-5 {
+}
+.p-r-50 {
+  padding-right: 50px;
+}
+.p-t-5 {
+  padding-top: 5px;
+}
+.mtext-105 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.cl2 {
+  color: #333;
+}
+.js-name-detail {
+}
+.p-b-14 {
+  padding-bottom: 14px;
+}
+.mtext-106 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.388888;
+}
+.stext-102 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.cl3 {
+  color: #666;
+}
+.p-t-23 {
+  padding-top: 23px;
+}
+.p-t-33 {
+  padding-top: 33px;
+}
+.flex-r-m {
+  justify-content: flex-end;
+  -ms-align-items: center;
+  align-items: center;
+}
+.p-b-10 {
+  padding-bottom: 10px;
+}
+.size-203 {
+  width: 105px;
+}
+.respon6 {
+}
+.size-204 {
+  width: calc(100% - 105px);
+}
+.respon6-next {
+}
+.rs1-select2 {
+}
+.bor8 {
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+.js-select2 {
+}
+.select2-hidden-accessible {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+.select2 {
+}
+.select2-container {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+.select2-container--default {
+}
+.select2-container--default .select2-selection--single {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  display: block;
+  padding-left: 8px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #444;
+  line-height: 28px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+.tooltip100 {
+  margin-right: 10px;
+}
+.auth-modal-block input {
+  outline: none;
+}
+
+.auth-modal-label {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(10, 70, 105);
+}
+.auth-modal-input {
+  padding: 10px 25px;
+}
